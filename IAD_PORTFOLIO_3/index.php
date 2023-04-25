@@ -34,8 +34,8 @@
                     } else {
                         echo <<<HTML
                         <ul>
-                            <li><a href="login.html" class="hover">REGISTER</a></li>
-                            <li><a href="login.html" class="hover">LOGIN</a></li>
+                            <li><a href="login-page.php#reg-popup" class="hover">REGISTER</a></li>
+                            <li><a href="login-page.php" class="hover">LOGIN</a></li>
                             <li><img src="Images/logo-png.png" alt="" class="nav-img"></li>
                         </ul>
                     HTML;
