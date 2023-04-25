@@ -6,7 +6,7 @@ if (isset($_POST["logout"]) && $_POST["logout"] === "true") {
 
   session_destroy();
 
-  header("Location:http://220213303.cs2410-web01pvm.aston.ac.uk/login.html");
+  header("Location:http://220213303.cs2410-web01pvm.aston.ac.uk/login-page.php");
   exit;
 }
 ?>
