@@ -327,3 +327,29 @@ input[type=date]{
     color: #BDBDBD;
     font-size: 10px;
 }
+
+@media only screen and (max-width: 850px){
+
+	h1{
+		text-align: center;
+	}
+	h2{
+		text-align: center;
+	}
+	h3{
+		text-align: center;
+	}
+	p{
+		text-align: center;
+	}
+	.search-container{	
+    		flex-direction: column;
+	}
+	#searchQueryInput {
+    		width: 200px;
+	}
+	input[type=date]{
+	    width: 200px;
+	}
+
+}
