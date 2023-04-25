@@ -347,3 +347,28 @@ input[type=text], input[type=password] {
     color: #BDBDBD;
     font-size: 10px;
 }
+
+@media only screen and (max-width: 850px){
+
+	.login-box img{
+		display: none;
+    	text-align: center;
+	}
+	.line{
+    	display: none;
+	}
+	.login-form h2{
+		text-align: center;
+	}
+	input[type=text], input[type=password] {
+    	padding: 12px 30px;
+    	width: 100%;
+	}
+	.registration-box{
+    	width: 65vw;
+	}
+	.registration-box h2{
+    	text-align: center;
+	}
+  
+}
